@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 10vw;
+    background-color: rgb(87, 185, 87);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+  
+   
+    
+
+}
+
+main { 
+    flex-grow: 4;
+    flex-wrap: wrap;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 8;
+    font-size: 80px;
+   
+    
+
+
+}
+
+img{
+    
+    height: auto;
+    width: 250px;
+    display: flex;
+    justify-items: center;
+    
+}
+
+li{
+    
+    justify-items: center;
+    list-style: none; 
+    padding: 20px 20px;
+    
+}
+
+a {
+
+    background-color: rgb(32, 116, 67);
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.Início {
+
+    padding: 10px 100px;
+    border-radius: 15px;
+} 
+
+.Início:hover {
+  
+    background-color: rgb(87, 185, 87);
+    transition: 1s;
+
+
+}
+
+.Sensores {
+
+    padding: 10px 81px;
+    border-radius: 15px;
+
+}
+
+.Sensores:hover{
+    background-color: rgb(87, 185, 87);
+    transition: 1s;
+
+}
+
+
+
+
+.Informações {
+    padding: 10px 69px;
+    border-radius: 15px;
+
+}
+
+.Informações:hover {
+    background-color: rgb(87, 185, 87);
+    transition: 1s;
+
+
+}
+
+.Sistemas {
+
+    padding: 10px 81px;
+    border-radius: 15px;
+}
+
+.Sistemas:hover {
+
+    background-color: rgb(87, 185, 87);
+    transition: 1s;
+
+
+}
